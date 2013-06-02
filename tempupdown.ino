@@ -44,7 +44,7 @@ void loop() {
     else if (digitalRead(downButtonPin) == HIGH) {
         targetTemp--;
         ledOutput();
-        delay(200);
+        delay(200);aoeu
     }
     delay(3000);  
 }
